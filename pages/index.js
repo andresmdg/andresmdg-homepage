@@ -7,8 +7,7 @@ import {
   SimpleGrid,
   Button,
   List,
-  ListItem,
-  useColorModeValue
+  ListItem
 } from '@chakra-ui/react'
 import { ChevronRightIcon, EmailIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
@@ -16,7 +15,7 @@ import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
-import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
+import { IoLogoLinkedin, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
 import Image from 'next/image'
 
 const Home = () => (
@@ -94,7 +93,7 @@ const Home = () => (
         <Heading as="h3" variant="section-title">
           I ♥
         </Heading>
-        <Paragraph>Music, Baseball</Paragraph>
+        <Paragraph>Music, Baseball, Boxing, Comics</Paragraph>
       </Section>
 
       <Section delay={0.3}>
@@ -110,6 +109,28 @@ const Home = () => (
                 leftIcon={<IoLogoGithub />}
               >
                 @andresmdg
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="https://linkedin.com/in/andresmdg" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<IoLogoLinkedin />}
+              >
+                @andresmdg
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="https://instagram.com/andresmdg_">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<IoLogoInstagram />}
+              >
+                @andresmdg_
               </Button>
             </Link>
           </ListItem>
