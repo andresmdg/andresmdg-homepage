@@ -81,9 +81,7 @@ const Navbar = props => {
           <LinkItem href="/works" path={path}>
             Works
           </LinkItem>
-          <LinkItem href="/posts" path={path}>
-            Posts
-          </LinkItem>
+          <LinkItem href="https://posts.andresmdg.vercel.app/">Posts</LinkItem>
           <LinkItem
             target="_blank"
             href="https://github.com/andresmdg/andresmdg-homepage"
