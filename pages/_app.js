@@ -1,3 +1,4 @@
+import '@fontsource/m-plus-rounded-1c'
 import Layout from '../components/layouts/main.js'
 import { AnimatePresence } from 'framer-motion'
 import Chakra from '../components/chakra.js'
