@@ -10,7 +10,14 @@ const Work = () => (
       <Title>
         GreenPark <Badge> 2023-</Badge>
       </Title>
-      <Paragraph>GreenPark is a website...</Paragraph>
+      <Paragraph>
+        The corporate website for the construction company and real state agency
+        based in Colombia.
+      </Paragraph>
+      <Paragraph style={{ textIndent: '0em' }}>
+        The founder of the agency, needed to make changes to his website which I
+        did in addition to that, I fixed some errors found in the process.
+      </Paragraph>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
@@ -24,7 +31,7 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>Wordpress, Elementor, MySQL</span>
+          <span>Wordpress / Elementor / MySQL</span>
         </ListItem>
       </List>
       <WorkImage src="/images/works/greenpark_01.png" alt="GreenPark" />

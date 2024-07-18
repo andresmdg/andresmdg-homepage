@@ -20,7 +20,7 @@ const Works = () => {
               title="GreenPark"
               thumbnail={thumbGreenPark}
             >
-              condominiosgreenpark is a website ...
+              A website for a construction company and real state agency.
             </WorkGridItem>
           </Section>
         </SimpleGrid>
