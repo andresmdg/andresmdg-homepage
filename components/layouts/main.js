@@ -1,5 +1,6 @@
 import Head from 'next/head'
-import NavBar from '../navbar.js'
+import Navbar from '../navbar.js'
+import Footer from '../footer.js'
 import { Box, Container } from '@chakra-ui/react'
 
 const Main = ({ children, router }) => {
@@ -16,18 +17,19 @@ const Main = ({ children, router }) => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@andresmdg" />
         <meta name="twitter:creator" content="@andresmdg" />
-        <meta name="twitter:image" content="#" />
+        <meta name="twitter:image" content="/card.png" />
         <meta property="og:site_name" content="Andres Martinez" />
         <meta name="og:title" content="Andres Martinez" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="#" />
+        <meta property="og:image" content="/card.png" />
         <title>Andres Martinez - Homepage</title>
       </Head>
 
-      <NavBar path={router.asPath} />
+      <Navbar path={router.asPath} />
 
       <Container maxW="container.md" pt={14}>
         {children}
+        <Footer />
       </Container>
     </Box>
   )

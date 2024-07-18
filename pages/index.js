@@ -4,29 +4,27 @@ import {
   Container,
   Heading,
   Box,
-  SimpleGrid,
   Button,
   List,
   ListItem
 } from '@chakra-ui/react'
-import { ChevronRightIcon, EmailIcon } from '@chakra-ui/icons'
-import Paragraph from '../components/paragraph'
-import { BioSection, BioYear } from '../components/bio'
-import Layout from '../components/layouts/article'
-import Section from '../components/section'
-import { GridItem } from '../components/grid-item'
+import { ChevronRightIcon } from '@chakra-ui/icons'
+import Paragraph from '../components/paragraph.js'
+import { BioSection, BioYear } from '../components/bio.js'
+import Layout from '../components/layouts/article.js'
+import Section from '../components/section.js'
 import { IoLogoLinkedin, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
 import Image from 'next/image'
 
 const Home = () => (
   <Layout>
-    <Container>
+    <Container mt={14} pt={14}>
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
             Andres Martinez
           </Heading>
-          <p>Software developer ( Web / Desktop / Movil / Database )</p>
+          <p>Software developer ( Web / Desktop / Mobile / DB )</p>
         </Box>
         <Box
           flexShrink={0}
