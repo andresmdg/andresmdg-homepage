@@ -18,7 +18,7 @@ import Image from 'next/image'
 
 const Home = () => (
   <Layout>
-    <Container mt={14} pt={14}>
+    <Container my={14} pt={14}>
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
