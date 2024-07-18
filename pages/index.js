@@ -85,13 +85,22 @@ const Home = () => (
           <BioYear>1999</BioYear>
           Born in Aguascalientes (ags), Mexico
         </BioSection>
+        <BioSection>
+          <BioYear>2022 to present</BioYear>
+          Working as freelancer
+        </BioSection>
+        <BioSection>
+          <BioYear> 2023</BioYear>
+          Completed the &apos;Oracle Next Education - Back-end&apos; program at
+          alura Latam academy.
+        </BioSection>
       </Section>
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
           I ♥
         </Heading>
-        <Paragraph>Music, Baseball, Boxing, Comics</Paragraph>
+        <Paragraph>Music, Baseball, Boxing, Comics, Videogames, Cars</Paragraph>
       </Section>
 
       <Section delay={0.3}>
