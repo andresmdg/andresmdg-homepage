@@ -8,7 +8,7 @@ const Main = ({ children, router }) => {
     <Box>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="andresmdg homepage" />
+        <meta name="description" content="Inicio - Andres Martinez" />
         <meta name="author" content="Andres Martinez" />
         <meta name="author" content="andresmdg" />
         <link rel="apple-touch-icon" href="apple-touch-icon.png" />
