@@ -79,9 +79,8 @@ const Navbar = props => {
           mt={{ base: 4, md: 0 }}
         >
           <LinkItem href="/works" path={path}>
-            Works
+            Trabajos
           </LinkItem>
-          <LinkItem href="https://posts.andresmdg.vercel.app/">Posts</LinkItem>
           <LinkItem
             target="_blank"
             href="https://github.com/andresmdg/andresmdg-homepage"
@@ -92,7 +91,7 @@ const Navbar = props => {
             pt={2}
           >
             <IoLogoGithub />
-            Source
+            Código fuente
           </LinkItem>
         </Stack>
 
@@ -108,19 +107,16 @@ const Navbar = props => {
               />
               <MenuList>
                 <MenuItem as={MenuLink} href="/">
-                  About
+                  Sobre mi
                 </MenuItem>
                 <MenuItem as={MenuLink} href="/works">
-                  Works
-                </MenuItem>
-                <MenuItem as={MenuLink} href="/posts">
-                  Posts
+                  Trabajos
                 </MenuItem>
                 <MenuItem
                   as={Link}
                   href="https://github.com/andresmdg/andresmdg-homepage"
                 >
-                  View Source
+                  Ver código fuente
                 </MenuItem>
               </MenuList>
             </Menu>

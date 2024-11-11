@@ -24,7 +24,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Andres Martinez
           </Heading>
-          <p>Software developer ( Web / Desktop / Mobile )</p>
+          <p>Desarrollador de software ( Web / Desktop / Mobile )</p>
         </Box>
         <Box
           flexShrink={0}
@@ -54,15 +54,16 @@ const Home = () => (
 
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
-          About
+          Sobre mi
         </Heading>
         <Paragraph>
-          Andres is a full-stack developer based in Aguascalientes with a
-          passion for building digital products/services. He has a knack for all
-          things developing digital products/services, from planning and design
-          all the way to solving real-life problems with code. When not online,
-          he enjoys spending time listening to music. Currently, he is focused
-          on improving and learning new things.
+          Andres es un desarrollador full-stack originario de Aguascalientes con
+          una pasion por construir productos/servicios digitales. Tiene un don
+          para todas las cosas de desarrollo de productos/servicios digitales,
+          desde la planificacion, el diseño y todo el camino hacia una solución
+          de problemas de la vida real con codigo. Cuando no esta conectado
+          disfruta escuchar musica. Actualmente esta centrado en mejorar y
+          aprender cosas nuevas.
         </Paragraph>
         <Box align="center" my={4}>
           <Button
@@ -72,7 +73,7 @@ const Home = () => (
             rightIcon={<ChevronRightIcon />}
             colorScheme="teal"
           >
-            My portfolio
+            Mi portafolio
           </Button>
         </Box>
       </Section>
@@ -82,30 +83,32 @@ const Home = () => (
           Bio
         </Heading>
         <BioSection>
-          <BioYear>1999</BioYear>
-          Born in Aguascalientes (ags), Mexico
+          <BioYear>1999 </BioYear>
+          Nacio en Aguascalientes (ags), Mexico
         </BioSection>
         <BioSection>
-          <BioYear>2022 to present</BioYear>
-          Working as freelancer
+          <BioYear>2022 - hoy</BioYear>
+          Trabajando de manera independiente
         </BioSection>
         <BioSection>
           <BioYear> 2023</BioYear>
-          Completed the &apos;Oracle Next Education - Back-end&apos; program at
-          alura Latam academy.
+          Programa completado &apos;Oracle Next Education - Back-end&apos;
+          impartido por alura Latam academy.
         </BioSection>
       </Section>
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
-          I ♥
+          Me ♥
         </Heading>
-        <Paragraph>Music, Baseball, Boxing, Comics, Videogames, Cars</Paragraph>
+        <Paragraph>
+          Musica, Baseball, Boxeo, Comics, Videojuegos, Carros
+        </Paragraph>
       </Section>
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
-          On the web
+          En la web
         </Heading>
         <List>
           <ListItem>

@@ -4,23 +4,59 @@ import Section from '../components/section.js'
 import { WorkGridItem } from '../components/grid-item.js'
 
 import thumbGreenPark from '../public/images/works/greenpark_eyecatch.png'
+import thumbCorafam from '../public/images/works/corafam_eyecatch.png'
+import thumbMagicDay from '../public/images/works/magicday_eyecatch.png'
+import thumbRestoBar from '../public/images/works/restobar_eyecatch.png'
+import thumbMascotApp from '../public/images/works/mascotapp_eyecatch.png'
 
 const Works = () => {
   return (
-    <Layout title="Works">
+    <Layout title="Trabajos">
       <Container my={14} pt={14}>
         <Heading as="h3" fontSize={20} mb={8}>
-          Works
+          Trabajos
         </Heading>
 
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section>
+            <WorkGridItem id="corafam" title="Corafam" thumbnail={thumbCorafam}>
+             Sitio web para gestion de eventos de la empresa.
+            </WorkGridItem>
+          </Section>
+          <Section>
+            <WorkGridItem
+              id="magicday"
+              title="Magic Day"
+              thumbnail={thumbMagicDay}
+            >
+              Sitio web de una redsocial para crear y asistir eventos
+            </WorkGridItem>
+          </Section>
+          <Section>
             <WorkGridItem
               id="greenpark"
-              title="GreenPark"
+              title="green park"
               thumbnail={thumbGreenPark}
             >
-              A website for a construction company and real state agency.
+              Sitio web corporativo de la constructora y agencia inmobiliaria
+            </WorkGridItem>
+          </Section>
+          <Section>
+            <WorkGridItem
+              id="restobar"
+              title="meetingrestobar"
+              thumbnail={thumbRestoBar}
+            >
+              Sitio web para un menu digital del restaurante meetingrestobar
+            </WorkGridItem>
+          </Section>
+          <Section>
+            <WorkGridItem
+              id="mascotapp"
+              title="MascotApp"
+              thumbnail={thumbMascotApp}
+            >
+              Sitio web de gestion para una veterinaria
             </WorkGridItem>
           </Section>
         </SimpleGrid>
