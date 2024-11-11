@@ -14,7 +14,7 @@ const Main = ({ children, router }) => {
         <link rel="apple-touch-icon" href="apple-touch-icon.png" />
         <link rel="sortcut icon" href="/favicon.ico" type="image/x-icon" />
         <meta property="og:title" content="Andres Martinez" />
-        <meta property="og:description" content="andresmdg homepage" />
+        <meta property="og:description" content="Inicio - Andres Martinez" />
         <meta property="og:image" content="https://andresmdg.com/card.png" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://andresmdg.com/" />
@@ -26,7 +26,7 @@ const Main = ({ children, router }) => {
         <meta name="twitter:site" content="@andresmdg" />
         <meta name="twitter:creator" content="@andresmdg" />
         <meta name="twitter:image" content="https://andresmdg.com/card.png" />
-        <meta name="twitter:description" content="andresmdg homepage" />
+        <meta name="twitter:description" content="Inicio - Andres Martinez" />
         <meta name="twitter:image:alt" content="Imagen destacada de Andres Martinez" />
         <meta name="robots" content="index, follow" />
         <title>Inicio - Andres Martinez</title>
