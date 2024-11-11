@@ -15,7 +15,7 @@ const Main = ({ children, router }) => {
         <link rel="sortcut icon" href="/favicon.ico" type="image/x-icon" />
         <meta property="og:title" content="Andres Martinez" />
         <meta property="og:description" content="andresmdg homepage" />
-        <meta property="og:image" content="https://andresmdg.com/card.png/card.png" />
+        <meta property="og:image" content="https://andresmdg.com/card.png" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://andresmdg.com/" />
         <meta property="og:site_name" content="Andres Martinez" />
@@ -25,7 +25,7 @@ const Main = ({ children, router }) => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@andresmdg" />
         <meta name="twitter:creator" content="@andresmdg" />
-        <meta name="twitter:image" content="https://andresmdg.com/card.png/card.png" />
+        <meta name="twitter:image" content="https://andresmdg.com/card.png" />
         <meta name="twitter:description" content="andresmdg homepage" />
         <meta name="twitter:image:alt" content="Imagen destacada de Andres Martinez" />
         <meta name="robots" content="index, follow" />
