@@ -134,3 +134,6 @@ dist
 
 #Scripts
 *.sh
+
+# Bun
+bun.lockb
