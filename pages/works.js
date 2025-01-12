@@ -7,7 +7,6 @@ import thumbGreenPark from '../public/images/works/greenpark_eyecatch.png'
 import thumbCorafam from '../public/images/works/corafam_eyecatch.png'
 import thumbMagicDay from '../public/images/works/magicday_eyecatch.png'
 import thumbRestoBar from '../public/images/works/restobar_eyecatch.png'
-import thumbMascotApp from '../public/images/works/mascotapp_eyecatch.png'
 
 const Works = () => {
   return (
@@ -20,7 +19,7 @@ const Works = () => {
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section>
             <WorkGridItem id="corafam" title="Corafam" thumbnail={thumbCorafam}>
-             Sitio web para gestion de eventos de la empresa.
+              Sitio web para gestion de eventos de la empresa.
             </WorkGridItem>
           </Section>
           <Section>
@@ -48,15 +47,6 @@ const Works = () => {
               thumbnail={thumbRestoBar}
             >
               Sitio web para un menu digital del restaurante meetingrestobar
-            </WorkGridItem>
-          </Section>
-          <Section>
-            <WorkGridItem
-              id="mascotapp"
-              title="MascotApp"
-              thumbnail={thumbMascotApp}
-            >
-              Sitio web de gestion para una veterinaria
             </WorkGridItem>
           </Section>
         </SimpleGrid>
