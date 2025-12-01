@@ -22,9 +22,9 @@ const Home = () => (
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
-            Andres Martinez
+            andresmdg
           </Heading>
-          <p>Desarrollador de software ( Web / Desktop / Mobile )</p>
+          <p>Desarrollador Full Stack ( Web / Desktop / Mobile )</p>
         </Box>
         <Box
           flexShrink={0}
@@ -57,13 +57,11 @@ const Home = () => (
           Sobre mi
         </Heading>
         <Paragraph>
-          Andres es un desarrollador full-stack originario de Aguascalientes con
-          una pasion por construir productos/servicios digitales. Tiene un don
-          para todas las cosas de desarrollo de productos/servicios digitales,
-          desde la planificacion, el diseño y todo el camino hacia una solución
-          de problemas de la vida real con codigo. Cuando no esta conectado
-          disfruta escuchar musica. Actualmente esta centrado en mejorar y
-          aprender cosas nuevas.
+          Hola, soy Andres Martinez. Full Stack Developer de Aguascalientes con
+          pasión por crear productos digitales útiles y bien diseñados. Trabajo
+          desde la idea hasta la solución final, siempre enfocándome en resolver
+          problemas reales con código. Hoy desarrollo mis propios proyectos y
+          busco nuevas oportunidades para seguir creciendo.
         </Paragraph>
         <Box align="center" my={4}>
           <Button
@@ -73,7 +71,7 @@ const Home = () => (
             rightIcon={<ChevronRightIcon />}
             colorScheme="teal"
           >
-            Mi portafolio
+            Trabajos
           </Button>
         </Box>
       </Section>
@@ -83,17 +81,17 @@ const Home = () => (
           Bio
         </Heading>
         <BioSection>
-          <BioYear>1999 </BioYear>
-          Nacio en Aguascalientes (ags), Mexico
+          <BioYear>1999</BioYear>
+          Dia de Nacimiento en Aguascalientes (ags), Mexico
         </BioSection>
         <BioSection>
-          <BioYear>2022 - hoy</BioYear>
-          Trabajando de manera independiente
-        </BioSection>
-        <BioSection>
-          <BioYear> 2023</BioYear>
-          Programa completado &apos;Oracle Next Education - Back-end&apos;
+          <BioYear>2023</BioYear>
+          Programa completado &apos;Oracle Next Education - Backend&apos;
           impartido por alura Latam academy.
+        </BioSection>
+        <BioSection>
+          <BioYear>2023 - hoy</BioYear>
+          Trabajo como freelance
         </BioSection>
       </Section>
 
@@ -102,13 +100,13 @@ const Home = () => (
           Me ♥
         </Heading>
         <Paragraph>
-          Musica, Baseball, Boxeo, Comics, Videojuegos, Carros
+          Hamburguesa, Musica, Baseball, Videojuegos, Formula 1
         </Paragraph>
       </Section>
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
-          En la web
+          Redes sociales
         </Heading>
         <List>
           <ListItem>

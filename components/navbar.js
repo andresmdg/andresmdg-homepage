@@ -12,16 +12,13 @@ import {
   MenuItem,
   MenuList,
   MenuButton,
-  IconButton,
-  useColorModeValue
+  IconButton
 } from '@chakra-ui/react'
 import { HamburgerIcon } from '@chakra-ui/icons'
-import ThemeToggleButton from './theme-toggle-button.js'
 import { IoLogoGithub } from 'react-icons/io5'
 
 const LinkItem = ({ href, path, target, children, ...props }) => {
   const active = path === href
-  const inactiveColor = useColorModeValue('gray.800', 'whiteAlpha.900')
 
   return (
     <Link
@@ -30,7 +27,7 @@ const LinkItem = ({ href, path, target, children, ...props }) => {
       scroll={false}
       p={2}
       bg={active ? 'grassTeal' : undefined}
-      color={active ? '#202023' : inactiveColor}
+      color={active ? '#202023' : 'whiteAlpha.900'}
       target={target}
       {...props}
     >
@@ -51,7 +48,6 @@ const Navbar = props => {
       position="fixed"
       as="nav"
       w="100%"
-      bg={useColorModeValue('#ffffff40', '#20202380')}
       css={{ backdropFilter: 'blur(10px)' }}
       zIndex={2}
       {...props}
@@ -96,7 +92,6 @@ const Navbar = props => {
         </Stack>
 
         <Box flex={1} align="right">
-          <ThemeToggleButton />
           <Box ml={2} display={{ base: 'inline-block', md: 'none' }}>
             <Menu isLazy id="navbar-menu">
               <MenuButton

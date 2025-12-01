@@ -15,21 +15,21 @@ const Main = ({ children, router }) => {
         <link rel="sortcut icon" href="/favicon.ico" type="image/x-icon" />
         <meta property="og:title" content="Andres Martinez" />
         <meta property="og:description" content="Inicio - Andres Martinez" />
-        <meta property="og:image" content="https://andresmdg.com/card.png" />
+        <meta property="og:image" content="https://andresmdg.vercel.app/card.png" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://andresmdg.com/" />
+        <meta property="og:url" content="https://andresmdg.vercel.app/" />
         <meta property="og:site_name" content="Andres Martinez" />
-        <meta property="og:image:secure_url" content="https://andresmdg.com/card.png" />
+        <meta property="og:image:secure_url" content="https://andresmdg.vercel.app/card.png" />
         <meta property="og:locale" content="es_ES" />
         <meta name="twitter:title" content="Andres Martinez" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@andresmdg" />
         <meta name="twitter:creator" content="@andresmdg" />
-        <meta name="twitter:image" content="https://andresmdg.com/card.png" />
+        <meta name="twitter:image" content="https://andresmdg.vercel.app/card.png" />
         <meta name="twitter:description" content="Inicio - Andres Martinez" />
         <meta name="twitter:image:alt" content="Imagen destacada de Andres Martinez" />
         <meta name="robots" content="index, follow" />
-        <title>Inicio - Andres Martinez</title>
+        <title>Inicio - andresmdg</title>
       </Head>
 
       <Navbar path={router.asPath} />

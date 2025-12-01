@@ -26,7 +26,7 @@ const Work = () => (
           </Link>
         </ListItem>
         <ListItem>
-          <Meta>Plataforma</Meta>
+          <Meta>Plataformas</Meta>
           <span>Web/Android</span>
         </ListItem>
         <ListItem>

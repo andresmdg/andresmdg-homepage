@@ -1,6 +1,6 @@
 import Link from 'next/link'
-import { Text, useColorModeValue } from '@chakra-ui/react'
-import FootprintIcon from './icons/footprint.js'
+import { Text } from '@chakra-ui/react'
+import PrintIcon from './icons/print.js'
 import styled from '@emotion/styled'
 
 const LogoBox = styled.span`
@@ -24,9 +24,9 @@ const LogoBox = styled.span`
 const Logo = () => (
   <Link href="/" scroll={false}>
     <LogoBox>
-      <FootprintIcon />
+      <PrintIcon />
       <Text
-        color={useColorModeValue('gray.8000', 'whiteAlpha.900')}
+        color={'whiteAlpha.900'}
         fontFamily="M PLUS Rounded 1c, sans-serif"
         fontWeight="bold"
         ml={3}

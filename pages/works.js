@@ -7,6 +7,7 @@ import thumbGreenPark from '../public/images/works/greenpark_eyecatch.png'
 import thumbCorafam from '../public/images/works/corafam_eyecatch.png'
 import thumbMagicDay from '../public/images/works/magicday_eyecatch.png'
 import thumbRestoBar from '../public/images/works/restobar_eyecatch.png'
+import thumbAUJunior from '../public/images/works/auj_eyecatch.png'
 
 const Works = () => {
   return (
@@ -17,6 +18,15 @@ const Works = () => {
         </Heading>
 
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
+          <Section>
+            <WorkGridItem
+              id="adoptaunjunior"
+              title="AdoptaUnJunior"
+              thumbnail={thumbAUJunior}
+            >
+              Sitio web para gestion de información de la comunidad.
+            </WorkGridItem>
+          </Section>
           <Section>
             <WorkGridItem id="corafam" title="Corafam" thumbnail={thumbCorafam}>
               Sitio web para gestion de eventos de la empresa.
